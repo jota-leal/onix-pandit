@@ -31,7 +31,11 @@ $ composer install
 Copiar el archivo de configuración:
 
 ```shell
-cp .env.example .env
+# Unix o Mac
+$ cp .env.example .env
+
+# Windows
+$ copy .env.example .env
 ```
 
 Levantar la aplicación en `http://localhost:8000/`:
