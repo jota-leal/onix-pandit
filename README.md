@@ -6,7 +6,7 @@
 
 Buscador de Pokémones desarrollado en Laravel por **Juan Leal**.
 
-> La aplicación en funcionamiento se puede probar en [https://onix-pandit.juanleal.com.ar/](https://onix-pandit.juanleal.com.ar/).
+> La aplicación en funcionamiento se puede probar en [https://www.juanleal.com.ar/onix-pandit/](https://www.juanleal.com.ar/onix-pandit/).
 
 ## Instalación
 
@@ -16,10 +16,22 @@ Clonar el repositorio:
 $ git clone https://github.com/jota-leal/onix-pandit.git
 ```
 
+Ingresar al directorio del proyecto:
+
+```shell
+$ cd onix-pandit
+```
+
 Instalar paquetes requeridos:
 
 ```shell
 $ composer install
+```
+
+Copiar el archivo de configuración:
+
+```shell
+cp .env.example .env
 ```
 
 Levantar la aplicación en `http://localhost:8000/`:
