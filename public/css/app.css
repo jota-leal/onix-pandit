@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,900");
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #00b5ad;
+}
+
+a:hover {
+    color: #00b5ad;
+}
+
+body > .ui.container {
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+
+a.logo {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 0.1rem;
+}
+
+.title > span {
+    font-weight: 100;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: #b0b0b0;
+    text-transform: uppercase;
+    letter-spacing: 0.41rem;
+}
+
+.ui.search {
+    margin: 3rem 0 2rem;
+}
+
+.ui.column.grid {
+    margin: 0;
+    width: 100%;
+}
+
+.front.content {
+    padding: 10px;
+    height: 150px;
+}
+
+.back.content {
+    padding: 10px;
+}
+
+.extra.content {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.02) !important;
+}
+
+.no-results {
+    margin-top: 1rem;
+}
+
+.no-results > h1 {
+    font-weight: 100;
+}
+
+.no-results > h1 > span {
+    font-weight: 900;
+}
+
+#footer {
+    padding: 15px;
+    background-color: #191c25;
+    color: #b0b0b0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#footer > .ui.container > .author {
+    display: inline-block;
+}
+
+#footer > .ui.container > .author > span {
+    color: white; font-weight: 700;
+}
+
+#footer > .ui.container > .repository {
+    float: right;
+}
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.pace .pace-progress {
+    background: #00b5ad;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
